@@ -5,7 +5,7 @@ maven 'Maven'
 jdk 'JDK'
 }
 stages {
-stage('Checkout)' {
+stage('Checkout') {
 steps {
 checkout scm
 }
